@@ -15,5 +15,10 @@ function nowServing(katzDeli) {
 }
 
 function currentLine(line) {
-  if (line > 0)
+  if (line > 0) {
+    return `The line is currently: ${}`
+  }
+  else {
+    return `The line is currently empty.``
+  }
 }
