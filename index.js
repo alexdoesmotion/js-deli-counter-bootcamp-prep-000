@@ -7,7 +7,7 @@ function takeANumber(katzDeli, name) {
 
 function nowServing(katzDeli) {
   if (katzDeli.length > 0) {
-    return `Currently serving ${parseInt([1])}`
+    return `Currently serving ${[0]}`
     katzDeli.shift()
   }
   else {
