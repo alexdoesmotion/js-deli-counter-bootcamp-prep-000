@@ -18,11 +18,7 @@ function currentLine(line) {
   if (line.length > 0) {
     var ol = []
     for (let i = 0; i < line.length; i++) {
-        if (i<line.length-1) {
-        ol.push(`${i+1}. ${line[i]},`)
-      } else {
         ol.push(`${i+1}. ${line[i]}`)
-      }
     }
     return `The line is currently: ${ol}`
   } else {
