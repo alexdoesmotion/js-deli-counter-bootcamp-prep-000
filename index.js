@@ -26,7 +26,7 @@ function numberNames() {
 
 function currentLine(line) {
   if (line.length > 0) {
-    return `The line is currently: 
+    return `The line is currently: ${numberNames()} 
   }
   else {
     return `The line is currently empty.`
